@@ -1,0 +1,21 @@
+annotations:
+  artifacthub.io/changes: |
+    - Update base image to HAProxy 2.8.2
+    - Fix includes name in haproxy charts (#203)
+    - V1 cnpcrf
+apiVersion: v2
+appVersion: 2.9
+description: A Helm chart for cnPCRF HAProxy on Kubernetes
+home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+keywords:
+- haproxy
+kubeVersion: '>=1.17.0-0'
+maintainers:
+- email: hector.appiolaza@telefonica.com
+  name: German Appiolaza
+name: cuy-haproxy
+sources:
+- http://www.haproxy.org/
+type: application
+version: 1.19.3
